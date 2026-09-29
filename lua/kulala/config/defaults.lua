@@ -23,7 +23,7 @@ local M = {
     -- - Windows: %APPDATA%\kulala-core
     data_dir = nil,
     -- Optional override for download url
-    download_url = "https://github.com/andycowan/kulala-core/releases/download/%s/%s",
+    download_url = "https://github.com/LoNebula/kulala-core/releases/download/%s/%s",
     download_tool = "curl", -- or "wget"
   },
   -- Restore request history and UI after sourcing a vim session (:h 'sessionoptions' globals).
